@@ -9,7 +9,7 @@ from rich import print
 #     encoding='utf-8'
 # ).check_returncode()
 
-bin = 'literal'
+bin = 'all_cases'
 
 subprocess.run(
     ['cargo', 'build', '--release', '--bin', f'{bin}'],
